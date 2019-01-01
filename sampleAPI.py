@@ -54,10 +54,10 @@ print("Here are the channel labels:")
 for idx, label in enumerate(labels):
     print('%d. %s' % (idx+1, label))
 
-C3 = int(input("Enter channel C3-A1 number: ")) - 1
-C4 = int(input("Enter channel C4-A2 number: ")) - 1
-EL = int(input("Enter channel EoGleft-A1 number: ")) - 1
-ER = int(input("Enter channel EoGright-A2 number: ")) - 1
+C3 = int(input("Enter channel C3-A2 number: ")) - 1
+C4 = int(input("Enter channel C4-A1 number: ")) - 1
+EL = int(input("Enter channel EoGleft-A2 number: ")) - 1
+ER = int(input("Enter channel EoGright-A1 number: ")) - 1
 EM = int(input("Enter channel bipolar EMG number: ")) - 1
 
 fsampling = [edf_file.getSampleFrequency(C3), edf_file.getSampleFrequency(EL),
