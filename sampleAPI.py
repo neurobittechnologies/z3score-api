@@ -27,7 +27,7 @@ from requests import post
 from time import time
 from sklearn.metrics import cohen_kappa_score
 
-serverURL = 'https://z3score.com/api/v1'
+serverURL = 'https://z3score.com/api/v2'
 email = 'email@domain.com'
 key = 'yourKey'
 
